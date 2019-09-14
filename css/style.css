@@ -9,7 +9,7 @@ h1{
   font-size: 64px;
   text-align: center;
 }
-h2{
+main{
   /* header 2 is 32px, with black drop shadow that is offset 4px horizontally, 4px veritcally, and 2px blur*/
   font-size: 32px;
   text-shadow: 4px, 4px, 2px, black;
@@ -30,9 +30,12 @@ p{
   padding-top: 15px;
 
 }
-img{
-  /*all on their own line, centered, and 55px with proper aspect ratio*/
+.center{
+  /*all on their own line, centered, and 550px with proper aspect ratio*/
   width: 550px;
+  display: block;
+  margin: auto;
+
 
 }
 
