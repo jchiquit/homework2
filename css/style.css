@@ -1,21 +1,43 @@
 body{
-  /* text is lucida grande with sans-serif fallback*/
-  ;
+  /* text is lucida grande with sans-serif fallback and text white*/
+  font-family: "lucida grande", sans-serif;
+  color: white;
+  background-color: black;
 }
 h1{
-  /* make your headers #128ded color and bold */
-
+  /* header 1 is 64px, centered */
+  font-size: 64px;
+  text-align: center;
+}
+h2{
+  /* header 2 is 32px, with black drop shadow that is offset 4px horizontally, 4px veritcally, and 2px blur*/
+  font-size: 32px;
+  text-shadow: 4px, 4px, 2px, black;
+}
+#red{
+  background-color: red;
+}
+#blue{
+  background-color: blue;
+}
+#yellow{
+  background-color: yellow;
+  color: black;
 }
 p{
-  /* make your paragraphs 14pt, double-spaced and 10px of padding on the left and right */
+  /* 19px with 15px padding on the top only */
+  font-size: 19px;
+  padding-top: 15px;
 
 }
 img{
+  /*all on their own line, centered, and 55px with proper aspect ratio*/
+  width: 550px;
 
 }
 
 .footer{
-  /* style the footer so it has a black background and white text */
+  /* text is centered with 15px padding on the bottom */
   color: white;
   background-color:black;
 }
