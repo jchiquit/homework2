@@ -1,0 +1,21 @@
+body{
+  /* text is lucida grande with sans-serif fallback*/
+  ;
+}
+h1{
+  /* make your headers #128ded color and bold */
+
+}
+p{
+  /* make your paragraphs 14pt, double-spaced and 10px of padding on the left and right */
+
+}
+img{
+
+}
+
+.footer{
+  /* style the footer so it has a black background and white text */
+  color: white;
+  background-color:black;
+}
