@@ -4,12 +4,6 @@ body{
   color: white;
   background-color: black;
 }
-img{
-    /*all on their own line, centered, and 550px with proper aspect ratio*/
-    width: 550px;
-    display: block;
-    margin: auto;
-}
 h1{
   /* header 1 is 64px, centered */
   font-size: 64px;
@@ -24,6 +18,12 @@ p{
   /* paragraphs are 16px with 15px padding on the top only */
   font-size: 16px;
   padding-top: 15px;
+}
+img{
+    /*all on their own line, centered, and 550px with proper aspect ratio*/
+    width: 550px;
+    display: block;
+    margin: auto;
 }
 div{
     /* all divs be at least 100px tall with 30px padding on all sides */
