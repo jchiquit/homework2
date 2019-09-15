@@ -1,5 +1,5 @@
 body{
-  /* text is lucida grande with sans-serif fallback and text white*/
+  /* text is lucida grande with sans-serif fallback, text white, and black background*/
   font-family: "lucida grande", sans-serif;
   color: white;
   background-color: black;
@@ -10,45 +10,52 @@ img{
     display: block;
     margin: auto;
 }
-div{
-    padding: 30px;
-    min-height: 100px;
-    height: auto;
-}
-p{
-  font-size: 16px;
-  padding-top: 15px;
-
-}
 h1{
   /* header 1 is 64px, centered */
   font-size: 64px;
   text-align: center;
 }
 h2{
+  /* header 2 is 32px, with “black” drop shadow that is offset 4px horizontally, 4px vertically, and 2px blur */
   font-size: 32px;
   text-shadow: 4px 4px 2px black;
 }
+p{
+  /* paragraphs are 16px with 15px padding on the top only */
+  font-size: 16px;
+  padding-top: 15px;
+}
+div{
+    /* all divs be at least 100px tall with 30px padding on all sides */
+    padding: 30px;
+    min-height: 100px;
+    height: auto;
+}
 #red{
+  /* background is red and text is aligned on the right */
   background-color: red;
   text-align: right;
 }
 #blue{
+    /* background is blue */
     background-color: blue;
 }
 #yellow{
+    /* background is yellow, text is black and aligned to the right */
     background-color: yellow;
     color: black;
     text-align: right;
 }
 #yellow h2{
-  text-shadow: 4px 4px 2px gray;
+  /* grey drop shadow that is offset 4px horizontally, 4px vertically, and 2px blur */
+  text-shadow: 4px 4px 2px grey;
 }
 #green{
+  /* background green */
     background-color: green;
 }
 footer{
   /* text is centered with 15px padding on the bottom */
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
