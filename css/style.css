@@ -4,43 +4,44 @@ body{
   color: white;
   background-color: black;
 }
+img{
+    /*all on their own line, centered, and 550px with proper aspect ratio*/
+    width: 550px;
+    display: block;
+    margin: auto;
+}
 h1{
   /* header 1 is 64px, centered */
   font-size: 64px;
   text-align: center;
 }
-main{
-  /* header 2 is 32px, with black drop shadow that is offset 4px horizontally, 4px veritcally, and 2px blur*/
+div{
+  min-height: 100px;
+  padding: 30px;
+}
+h2{
   font-size: 32px;
-  text-shadow: 4px, 4px, 2px, black;
 }
 #red{
   background-color: red;
+  text-align: right;
 }
 #blue{
   background-color: blue;
+
 }
 #yellow{
   background-color: yellow;
   color: black;
-}
-p{
-  /* 19px with 15px padding on the top only */
-  font-size: 19px;
-  padding-top: 15px;
+  text-align: right;
 
 }
-.center{
-  /*all on their own line, centered, and 550px with proper aspect ratio*/
-  width: 550px;
-  display: block;
-  margin: auto;
-
-
+#green{
+    background-color: green;
 }
 
-.footer{
+footer{
   /* text is centered with 15px padding on the bottom */
-  color: white;
-  background-color:black;
+  text-align: center;
+  padding-bottom: 10px;
 }
